@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+	
+    padding: 0;
+    box-sizing: border-box;
+	height: 100%;
+	overflow: auto; /* Allows the entire document to scroll if needed */
+}
+
+header nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.hero {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	opacity: 0.5;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* Carousel Styles */
+.carousel {
+    text-align: center;
+    margin: 20px 0;
+	margin-bottom: 80px;
+}
+
+.bike-slide {
+    /*display: none;*/
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.bike-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Calendar Styles */
+.calendar {
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+	
+}
+
+.calendar div {
+	margin-bottom: 80px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.calendar .available {
+    font-weight: bold;
+}
+
+.calendar .booked {
+    color: grey;
+}
